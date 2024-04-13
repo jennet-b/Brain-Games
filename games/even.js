@@ -6,10 +6,10 @@ console.log(`Hello, ${userName}!`);
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-const getRandomNumber = () => Math.floor(Math.random() * 101);
+const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
 const getTypeNumber = () => {
-  const number = getRandomNumber();
+  const number = getRandomNumber(100);
   const question = `${number}`;
   const isEven = (num) => num % 2 === 0;
   const result = (isEven(number) ? 'yes' : 'no');
