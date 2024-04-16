@@ -6,7 +6,7 @@ const playGameCalc = () => {
   const taskOfGame = 'What is the result of the expression?';
   const getRandomOperations = () => {
     const firstNumber = getRandomNumber(50);
-    const secondNumber = getRandomNumber(50);
+    const secondNumber = getRandomNumber(25);
     const operators = ['+', '-', '*'];
     const randomIndex = Math.floor(Math.random() * operators.length);
     const randomOperation = operators[randomIndex];
