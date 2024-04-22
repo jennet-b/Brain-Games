@@ -1,4 +1,4 @@
-import logicOfGame from '../src/index.js';
+import logicOfGame from '../index.js';
 
 const getRandomNumber = (a, b = 0) => {
   const min = Math.min(a, b);

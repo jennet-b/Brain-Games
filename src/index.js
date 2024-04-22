@@ -9,7 +9,8 @@ const logicOfGame = (taskOfGame, statement) => {
 
   console.log(taskOfGame);
 
-  for (let i = 0; i < 3; i += 1) {
+  const numberOfQuestions = 3;
+  for (let i = 0; i < numberOfQuestions; i += 1) {
     const pairOfQuestionAndResult = statement();
 
     console.log(`Question: ${pairOfQuestionAndResult[0]}`);

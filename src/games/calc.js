@@ -1,4 +1,4 @@
-import logicOfGame from '../src/index.js';
+import logicOfGame from '../index.js';
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
